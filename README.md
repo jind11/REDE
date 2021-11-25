@@ -65,4 +65,4 @@ python density-estimation.py bgm
 
 &nbsp;&nbsp;&nbsp;&nbsp;Contrast results:  {'P': defaultdict(<class 'list'>, {767: [0.8942307692307693]}), 'R': defaultdict(<class 'list'>, {767: [0.9043760129659644]}), 'F1': defaultdict(<class 'list'>, {767: [0.8992747784045126]})}
 
-&nbsp;&nbsp;&nbsp;&nbsp;Subjective questions results:  {'P': defaultdict(<class 'list'>, {767: [1.0]}), 'R': defaultdict(<class 'list'>, {767: [0.9510869565217391]}), 'F1': defaultdict(<class 'list'>, {767: [0.9749303621169916]})}
+&nbsp;&nbsp;&nbsp;&nbsp;Subjective questions results:  {'P': defaultdict(<class 'list'>, {767: [1.0]}), 'R': defaultdict(<class 'list'>, {767: [0.9382763975155279]}), 'F1': defaultdict(<class 'list'>, {767: [0.9681554175846184]})}
