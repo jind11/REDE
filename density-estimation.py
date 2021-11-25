@@ -158,7 +158,7 @@ for ood_num in [-1]:
             end_time = time.time()
             print(f"---evaluating test set for {end_time - start_time} seconds ---")
             oodMetricsObj = oodMetrics()
-            pr_thres_best_f1 = oodMetricsObj.compute_all_metrics(labels_tripadvisor, scores_tripadvisor,
+            _ = oodMetricsObj.compute_all_metrics(labels_tripadvisor, scores_tripadvisor,
                                                                  choose_thresholds=True, fixed_threshold=pr_thres_best_f1)
             oodMetricsObj.pretty_print_metrics()
             print(pr_thres_best_f1, '\n')
@@ -174,7 +174,7 @@ for ood_num in [-1]:
             end_time = time.time()
             print(f"---evaluating test set for {end_time - start_time} seconds ---")
             oodMetricsObj = oodMetrics()
-            pr_thres_best_f1 = oodMetricsObj.compute_all_metrics(labels_subjective_questions, scores_subjective_questions,
+            _ = oodMetricsObj.compute_all_metrics(labels_subjective_questions, scores_subjective_questions,
                                                                  choose_thresholds=True,
                                                                  fixed_threshold=pr_thres_best_f1)
             oodMetricsObj.pretty_print_metrics()
